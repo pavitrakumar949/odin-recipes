@@ -1,0 +1,48 @@
+h3{
+  color: blue;
+  font-size: 2rem;
+  background-color: yellow !important;
+} /*comment. important means no one can override it*/
+html{
+  background-color: pink;
+}
+p{
+color: olive;
+font-size: 2rem;
+font-style: italic;
+font-weight: bold;
+border-width: 4px;
+border-style: solid;
+border-color: black;
+border-radius: 30px;
+}
+#About{
+  color: green;
+  font-weight:bold;
+}
+.p2{
+  color: green;
+  background-color: grey;
+}
+#ace{
+  color: blue;
+  font-weight: bold;
+}
+div{
+  color: orange;
+}
+span{
+  color: green;
+  font-weight: bold;
+}
+body{
+  font-family: sans-serif;
+  line-height: 1.5rem;
+  border: 3px solid black;
+}
+*{
+  color: black;
+} /*everything will be pink as * is a universal attribute
+specific attributes get preferred over universal attributes.
+what happens later takes precedent over what happens previous
+provided it is not specified*/
